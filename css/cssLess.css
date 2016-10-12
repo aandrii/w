@@ -1,0 +1,130 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400';
+@import url("//fonts.googleapis.com/css?family=Yanone+Kaffeesatz:200,300,400");
+body {
+  background: url(/img/vulkan.jpg) top center;
+  padding-top: 70px;
+  font-family: 'Open Sans', sans-serif;
+}
+/*
+.main {
+  margin-top: -22px;
+  background-color: rgba(1, 1, 1, 0.5);*/
+.container {
+  position: relative;
+  min-height: 400px;
+  font-family: "Yanone Kaffeesatz", HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: rgba(10, 5, 17, 0.5);
+  text-align: center;
+  font-size: 50px;
+}
+.container .wordPadding {
+  height: 250px;
+}
+.container .oneWord {
+  margin-top: 20%;
+  color: white;
+  font-size: 30px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  line-height: .9;
+}
+.container .twoWord {
+  margin-top: 20%;
+  color: white;
+  font-size: 30px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  line-height: .9;
+}
+.container .hideTwoWord {
+  display: none;
+}
+.classBtn [type=button] {
+  outline: none;
+  width: 30%;
+  background-color: rgba(10, 75, 99, 0.15);
+  color: white;
+  text-transform: uppercase;
+  font-size: 27px;
+  height: 50px;
+  border-radius: 6px;
+  border-color: yellow;
+}
+.classBtn [name=revers] {
+  color: red;
+  margin-right: 0;
+}
+.classBtn [type=button]:active {
+  background-color: rgba(89, 6, 56, 0.1);
+}
+.accordion {
+  font-family: "Yanone Kaffeesatz", HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.accordion .accordionListUl {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.accordion .acordionTexItem {
+  display: none;
+  padding: 3px 20px;
+  margin: 0;
+  list-style: none;
+  background-color: rgba(10, 59, 7, 0.35);
+  border-radius: 10px;
+}
+.accordion .accordionClick {
+  display: block;
+  cursor: pointer;
+  padding: 3% 20%;
+  margin-bottom: 2px;
+  border-radius: 10px;
+  background-color: rgba(120, 59, 97, 0.52);
+}
+.navbar-toggle .icon-bar:nth-of-type(2) {
+  top: 1px;
+}
+.navbar-toggle .icon-bar:nth-of-type(3) {
+  top: 2px;
+}
+.navbar-toggle .icon-bar {
+  position: relative;
+  transition: all 500ms ease-in-out;
+}
+.navbar-toggle.active .icon-bar:nth-of-type(1) {
+  top: 6px;
+  transform: rotate(45deg);
+}
+.navbar-toggle.active .icon-bar:nth-of-type(2) {
+  background-color: transparent;
+}
+.navbar-toggle.active .icon-bar:nth-of-type(3) {
+  top: -6px;
+  transform: rotate(-45deg);
+}
+.navbar-toggle .icon-bar:nth-of-type(2) {
+  top: 1px;
+}
+.navbar-toggle .icon-bar:nth-of-type(3) {
+  top: 2px;
+}
+.navbar-toggle .icon-bar {
+  position: relative;
+  transition: all 500ms ease-in-out;
+}
+.navbar-toggle.active .icon-bar:nth-of-type(1) {
+  top: 6px;
+  transform: rotate(45deg);
+}
+.navbar-toggle.active .icon-bar:nth-of-type(2) {
+  background-color: transparent;
+}
+.navbar-toggle.active .icon-bar:nth-of-type(3) {
+  top: -6px;
+  transform: rotate(-45deg);
+}
+.iii {
+  border: 1px solid red;
+  font-size: 20px;
+  color: yellow;
+}
