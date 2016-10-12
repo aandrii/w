@@ -11,7 +11,7 @@ body {
   background-color: rgba(1, 1, 1, 0.5);*/
 .container {
   position: relative;
-  min-height: 400px;
+  min-height: 350px;
   font-family: "Yanone Kaffeesatz", HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: rgba(10, 5, 17, 0.5);
   text-align: center;
