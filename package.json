@@ -1,0 +1,10 @@
+{
+	"name": "test",
+	"version": "0.0.1",
+	"devDependencies": {
+		"gulp": "~3.8.7",
+		"gulp-connect": "^5.0.0",
+		"gulp-less": "^3.1.0",
+		"gulp-livereload": "~2.1.1"
+	}
+}
