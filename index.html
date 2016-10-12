@@ -11,7 +11,7 @@
     <!--<script src="https://code.jquery.com/jquery-1.10.2.js"></script>-->
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-     <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+     <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 
     </script>
   </head>
@@ -20,7 +20,7 @@
 
 <div class="row">
     <header class="row">
-        <nav class="navbar navbar-inverse">
+        <nav class="navbar navbar-inverse ">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -48,15 +48,7 @@
     <div class="accordion col-xs-12 col-sm-4 col-md-3 iii">
 
     <ul class="accordionListUl">
-     <li class="accordionListItem">
-          <span class="accordionClick">How to Use Git</span>
-          <ul class="acordionTexItem howToUseGit">
-            <li>introduction</li>
-            <li>courseOverview</li>
-            <li>differencesBetweenTwoFiles</li>
-            <li>findingDiffsBetweenLargestFiles</li>
-          </ul>
-        </li>
+
     <li class="accordionListItem">
       <span class="accordionClick">first</span>
       <ul class="acordionTexItem listWord">
@@ -85,7 +77,15 @@
       </ul>
     </li>
 
-   
+    <li class="accordionListItem">
+      <span class="accordionClick">How to Use Git</span>
+      <ul class="acordionTexItem howToUseGit">
+        <li>introduction</li>
+        <li>courseOverview</li>
+        <li>differencesBetweenTwoFiles</li>
+        <li>findingDiffsBetweenLargestFiles</li>
+      </ul>
+    </li>
 
     </ul>
 
@@ -134,131 +134,6 @@
     <script src="js/list2.js"></script>
     <script src="js/howToUseGit.js"></script>
     <script src="js/bootsr.js"></script>
-    <script>
-    var introduction =  [
-  ["we'll cover","мы рассмотрим"],
-  ["concept ","понятие"],
-  ["might ","можете"],
-  ["we'll see tomorrow","завтра посмотрим"],
-  ["sort of like","вроде как"],
-  ["giant","гигант"],
-  ["You mean like this one?","Вы имеете в виду, как этот?"],
-  ["at different points in time","в различные моменты времени"],
-  ["restore","восстановить"],
-  ["compare","сравнить"],
-  ["collaborate","сотрудничать"],
-  ["contribute","делать вклад"],
-  ["distribute","распространять"],
-  ["back and forth","туда и обратно"],
-  ["huge ","огромный"],
-  ["efficient","эффективным"],
-  ["to type","печатать"],
-  ["a little bit like learning","немного похоже на обучение"],
-  ["feel","чувствовать"],
-  ["bit","немного"],
-  ["not worth it","не стоит"],
-  ["enough","достаточно"],
-  ["internally","внутренне"],
-  ["basically ","в основном"],
-  ["It's kind of addicting.","Это своего рода увлечение."],
-  ["out why ","почему"]
-  ];
-var courseOverview = [
-  ["useful","полезный"],
-  ["experience ","опыт"],
-  ["matter ","дело"],
-  ["particular ","конкретный"],
-  ["sense","смысл"],
-  ["rough","грубый"],
-  ["breakdown","анализ, пробой"],
-  ["stick","придерживаться"],
-  ["through ","посредством"],
-  ["explore","исследовать"],
-  ["existing","существующий"],
-  ["on your own","самостоятельно"]
-];
-var differencesBetweenTwoFiles = [
-  ["both","оба"],
-  ["description","описание"],
-  ["fill","заполнить"],
-  ["could","мог"],
-  ["ahead","вперед"],
-  ["separate","отдельный"],
-  ["commas","запятая"],
-  ["decide","принимать решение"],
-  ["typo","опечатка"],
-  ["sounds","звуки"],
-  ["fix","фиксировать, исправлять"],
-  ["manually","вручную"],
-  ["annoy","раздражать"],
-  ["automatically","автоматически"],
-  ["glad","радостный"],
-  ["spend","проводить"],
-  ["few","мало"],
-  ["finding","обнаружение"],
-  ["instead","вместо"]
-];
-var findingDiffsBetweenLargestFiles = [
-["just found","только что нашел"],  
-["by hand","вручную"],
-["probably","вероятно"], 
-["seem","казаться"],
-["pretty","довольно, вполне"],  
-["tedious","утомительный"],
-["require","требовать"],  
-["required","обязательный"],
-["press space to start"," нажмите пробел, чтобы начать"],  
-["recognize you","узнаю тебя"],
-["recognize me","Узнай меня"] , 
-["that has been ported","которая была портированная"],
-["the left and right arrow keys","клавиши со стрелками влево и вправо"] , 
-["space to shoot","пробел чтобы стрелять"],
-["up to fire the engine","вверх для зажигания двигатель"] , 
-["props to Doug McGuiness","принадлежит DM"],
-["complete the exercise","выполнить упражнение."] , 
-["you won't(will not) have any problems","у вас не будет никаких проблем"],
-["you won't need a burly system to run Civilization 6"," + "] , 
-["intuitive","интуитивный"],
-["burly","крепкий"] , 
-["thought","думал"],
-["move","шаг, двигаться"] , 
-["the game out(out the game.)","выйти из игры"],
-["engine","двигатель"] , 
-["anymore","больше"],
-["actions","действия"] , 
-["consume","потреблять"],
-["fortunately","к счастью"] , 
-["bunch","группа, пучек"],
-["which stands for file compare","который стоит(выступает) для сравнения файлов"] , 
-["unrelate","несвязанный"],
-["but you have a built-in tool","но у вас есть встроенный инструмент"] , 
-["which stands for difference","которая выступает для сравнения"],
-["I'll demonstrate","я продемонстрирую"] , 
-["Then I'll ask you to go through","Тогда я буду просить вас, чтобы пройти через"],
-["same","тот же"] , 
-["By the way","кстати, между прочим"],
-["if you'd prefer to use git bash","если вы предпочитаете использовать Git bash"] , 
-["but for now","но сейчас"],
-["pass","проходить"] , 
-["hit","удар, поражать"],
-["Then down here","Тогда здесь"] , 
-["which was the description","которое были описаны"],
-["Some description here changed ","Некоторые описание здесь изменения"] , 
-["to the fun fact","на самом деле забавные"],
-["sunflowers","подсолнухи"] , 
-["pond","пруд"],
-["disaster","катастрофа"] , 
-["unify",""],
-["Now, I'll go ahead and hit Enter","Теперь я иду дальше и нажимаю Enter"] , 
-["I'll scroll back up","+"],
-["That is they existed in both the old version of the file and the new version","+"] , 
-["Now I'll scroll back down","Теперь я буду прокручивать вниз"],
-["And here's the style sheet change that you found earlier","+"] , 
-["just like I did","так же, как я сделал"],
-["Use the correct spelling for the word","Используйте правильное написание для слова"] , 
-["Once you found the word, enter it in this box","После того, как вы нашли слово, введите его в этом поле"]
-];
-</script>
 
   </body>
 </html>

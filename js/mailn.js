@@ -68,7 +68,7 @@ $(document).ready(function () {
     loopWhile();
     pasteWord();
 
-  })
+});
   $('.howToUseGit li').click(function(){
     console.log("c = " + c);
     c = 0;
