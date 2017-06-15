@@ -88,6 +88,30 @@ $(document).ready(function () {
       case '3':
         arraysWord = findingDiffsBetweenLargestFiles;
         break;
+      case '4':
+        arraysWord = findingDiffsBetweenLargestFiles2;
+        break;
+      case '5':
+        arraysWord = findingDiffsBetweenLargestFiles3;
+        break;
+      case '6':
+        arraysWord = reflections;
+        break;
+      case '7':
+        arraysWord = reflections2;
+        break;
+      case '8':
+        arraysWord = whereDoVersionCome;
+        break;
+      case '9':
+        arraysWord = propertiesOfaVCS;
+        break;
+      case '10':
+          arraysWord = propertiesOfaVSCforCS;
+          break;
+      case '11':
+        arraysWord = manualCommitInGit;
+        break;
       default: arraysWord = 'switch defalt';
     };
     console.log("arraysWord = " + arraysWord);
